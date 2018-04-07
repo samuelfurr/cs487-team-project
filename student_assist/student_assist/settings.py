@@ -10,6 +10,14 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
+# TODO: UPDATE THESE SETTING BEFORE LAUNCHING INTO A PRODUCTION
+# ENVIRONMENT!
+# We need to change:
+# Use a file for a security key
+# Turn of debug mode
+# Use apache for hosting, not the builtin django server
+# Tighten AWS database security
+
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
